@@ -1,0 +1,1 @@
+let idea =document.getElementById("chodu").innerHTML="hello";
