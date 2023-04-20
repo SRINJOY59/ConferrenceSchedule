@@ -30,24 +30,28 @@
 		<h1>Register Here</h1>
 		<p>Blockchain is a digital ledger technology that allows for secure, decentralized and tamper-proof storage and transfer of data, without the need for a central authority or intermediary.</p>
 		<div class="inputs">
-			<input type="text" placeholder="user name">
+			<input type="text" placeholder="user name" id="user">
 			<br>
-			<input type="password" placeholder="password">
+			<input type="password" placeholder="password" id="pass">
 		</div>
 			
 			<br><br>
 			
 		<div class="remember-me--forget-password">
 				<!-- Angular -->
-		<button>
+		<form action="FAQ.html"><button id="details">
 			Details
 		</button>
+		</form>
 		</div>	
-			<button class="login">Login</button>
+			<button class="login" id="loginbtn">Register</button>
 	</div>
 	
 </div>
 <!-- partial -->
-  
+<div class="container" id="error">
+
+</div>
+  <script src="BlockChain.js"></script>
 </body>
 </html>
