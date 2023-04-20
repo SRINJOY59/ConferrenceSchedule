@@ -1,12 +1,11 @@
 let register = document.getElementById('getVal');
 function validateemail() {
-    let x = document.getElementById("user").value;
+    let x = document.getElementById("userEmail").value;
+    console.log(x);
     var atposition = x.indexOf('@');
     var dotposition = x.lastIndexOf('.');
     if (atposition < 1 || dotposition < atposition || dotposition + 1 === x.length) {
       alert("Please enter a valid email address");
-      console.log(dotposition);
-      console.log(atposition);
       return false;
     } else {
       alert("Email address found!");
