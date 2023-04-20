@@ -1,0 +1,24 @@
+[33mcommit c475b9ac367f81d805f9e42b20dd8eb7a0c62618[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: ea51841 5770fcf
+Author: Abhranil <126375300+Phillament@users.noreply.github.com>
+Date:   Thu Apr 20 19:54:46 2023 +0530
+
+    Merge branch 'main' of https://github.com/SRINJOY59/ConferrenceSchedule
+
+[33mcommit ea51841604e88d3729188577cf94187eebefb348[m
+Author: Abhranil <126375300+Phillament@users.noreply.github.com>
+Date:   Thu Apr 20 19:54:06 2023 +0530
+
+    initial commit
+
+[33mcommit 5770fcf99bba800742bcefcf0fa8ec7e0cc198a1[m
+Author: SRINJOY59 <119725096+SRINJOY59@users.noreply.github.com>
+Date:   Thu Apr 20 14:21:27 2023 +0530
+
+    general
+
+[33mcommit a8d89d93f7f309c4c743de481d189e56ebeda369[m
+Author: SRINJOY59 <119725096+SRINJOY59@users.noreply.github.com>
+Date:   Thu Apr 20 14:19:45 2023 +0530
+
+    IUndexn page
