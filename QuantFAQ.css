@@ -1,20 +1,22 @@
 body{
     font-family: 'Work Sans', sans-serif;
-    background-image: url("https://www.analyticsinsight.net/wp-content/uploads/2020/07/Deep-Learning.jpeg");
+          
+    background-image:linear-gradient(to right,rgb(60, 60, 236),#33e3fa);  
     display: none;
 }
 
 @media screen and (max-width: 500px) {
     body {
-      background-image:url(AI\ pic\ original\ mobile.jpg) ;
-      display: block;
+    display: block;
+      background-image:linear-gradient(to right,rgb(60, 60, 236),#33e3fa);
     }
   }
 
   @media screen and (min-width: 1000px) and (max-width: 2000px) {
     body {
         display: block;
-      background-image:url(AI\ pic\ original\ jpg.jpg);  
+        
+      background-image:linear-gradient(to right, rgb(60, 60, 236), #33e3fa);  
     }
   }
 
@@ -23,7 +25,6 @@ body{
     border-bottom: #777;
     padding: 20px 60px;
     text-align: center;
-    color: darkorange;
 }
 .faq-container{
 display: flex;
@@ -39,7 +40,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #e0e419;
+    color: #420592;
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
