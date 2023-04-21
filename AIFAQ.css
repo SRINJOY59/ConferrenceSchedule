@@ -1,7 +1,25 @@
 body{
     font-family: 'Work Sans', sans-serif;
-    background-image: url("https://www.analyticsinsight.net/wp-content/uploads/2020/07/Deep-Learning.jpeg");
+    /* background-image: url("https://www.analyticsinsight.net/wp-content/uploads/2020/07/Deep-Learning.jpeg"); */
+    display: none;
 }
+
+@media screen and (max-width: 500px) {
+    body {
+    display: block;
+      background-image:url(AI\ pic\ original\ mobile.jpg) ;
+    }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 2000px) {
+    body {
+        display: block;
+        
+      background-image:url(AI\ pic\ original\ jpg.jpg);  
+    }
+  }
+
+
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
