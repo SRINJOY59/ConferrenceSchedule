@@ -17,6 +17,7 @@ loginBtn.addEventListener('click',()=>{
     if(validateemail()){
         if(password.length>=8){
             window.alert("Registration Completed!!");
+            window.location.assign("index.html");
         }
     else{
         window.alert("Invalid username or password");
