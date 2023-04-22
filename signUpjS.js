@@ -22,6 +22,7 @@ let confirm = document.getElementById('confirmPass').value;
     }
     else if(password===confirm){
     document.getElementById('showpage').innerHTML = "Your Account have been registered";
+    window.location.assign("index.html");
     }
 }
 })
