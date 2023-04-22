@@ -1,6 +1,26 @@
 body{
     font-family: 'Work Sans', sans-serif;
+          
+    background-image:linear-gradient(to right,rgb(60, 60, 236),#33e3fa);  
+    display: none;
 }
+
+@media screen and (max-width: 500px) {
+    body {
+    display: block;
+      background-image:linear-gradient(to right,rgb(60, 60, 236),#33e3fa);
+    }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 2000px) {
+    body {
+        display: block;
+        
+      background-image:linear-gradient(to right, rgb(60, 60, 236), #33e3fa);  
+    }
+  }
+
+
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
@@ -20,7 +40,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #444;
+    color: #420592;
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
