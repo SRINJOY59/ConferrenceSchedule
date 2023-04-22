@@ -152,7 +152,7 @@ body {
   float: right;
   color: #fff;
   font-size: 16px;
-  padding: 12px 35px;
+  padding: 12px 15px;
   border-radius: 50px;
   display: inline-block;
   border: 0;
@@ -164,49 +164,13 @@ body {
   width: 100%;
 }
 
+#details{
+  position: relative;
+  bottom: 5px;
+  height: 38px;
+}
 .login{
   position: relative;
-  bottom: 45px;
+  bottom: 35px;
+  height: 38px;
 }
-/* label {
-  display: block;
-  position: relative;
-  margin-left: 30px;
-}
-
-label::before {
-  content: ' \f00c';
-  position: absolute;
-  font-family: FontAwesome;
-  background: transparent;
-  border: 3px solid #70F570;
-  border-radius: 4px;
-  color: transparent;
-  left: -30px;
-  transition: all 0.2s linear;
-}
-
-label:hover::before {
-  font-family: FontAwesome;
-  content: ' \f00c';
-  color: #fff;
-  cursor: pointer;
-  background: #70F570;
-}
-
-label:hover::before .text-checkbox {
-  background: #70F570;
-}
-
-label span.text-checkbox {
-  display: inline-block;
-  height: auto;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.2s linear;
-  color: #060005;
-}
-
-label input[type="checkbox"] {
-  display: none;
-} */

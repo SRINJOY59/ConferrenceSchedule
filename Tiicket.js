@@ -14,6 +14,7 @@ function generateOTP() {
 const provideOTP = ()=>{
     let OTP = generateOTP();
     window.alert("One Time Password for the following transaction: ",OTP);
+    window.alert(OTP);
     let typedOTP = prompt("Enter the OTP sent to you for further transaction: ");
     if(typedOTP==OTP){
         return true;
@@ -26,7 +27,10 @@ ticket.addEventListener('click',()=>{
     let quantity = prompt("Enter the number of tickets you want to buy: ");
     quantity =  Number.parseInt(quantity);
     let choose = prompt("Choose your Bank code: SBI/Canara/PNB/Bandhan ");
-    let email = promopt("Enter your email id: ");
+    let AC = prompt("Enter your A/C no: ");
+    if(AC.length!=11){
+        window.alert("Wrong A/C number given!!😔");
+    }
     let i=0;
     for(i=0;i<3;i++){
         if(provideOTP(quantity)){
