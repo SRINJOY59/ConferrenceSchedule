@@ -26,10 +26,15 @@ const provideOTP = ()=>{
 ticket.addEventListener('click',()=>{
     let quantity = prompt("Enter the number of tickets you want to buy: ");
     quantity =  Number.parseInt(quantity);
+    if(quantity>100){
+        window.alert("Limit Exceeded!!!");
+        return ;
+    }
     let choose = prompt("Choose your Bank code: SBI/Canara/PNB/Bandhan ");
     let AC = prompt("Enter your A/C no: ");
     if(AC.length!=11){
         window.alert("Wrong A/C number given!!😔");
+        return ;
     }
     let i=0;
     for(i=0;i<3;i++){
