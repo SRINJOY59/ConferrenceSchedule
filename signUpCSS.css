@@ -1,7 +1,10 @@
 body{
 	margin:0;
+	padding: 0;
+	height: 100%;
 	color:#6a6f8c;
 	font:600 16px/18px 'Open Sans',sans-serif;
+	background: linear-gradient(to top left,aqua,rgb(121, 121, 229));
 }
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -14,6 +17,7 @@ a{color:inherit;text-decoration:none}
 	max-width:525px;
 	min-height:670px;
 	position:relative;
+	top: 25px;
 	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
