@@ -31,6 +31,10 @@ ticket.addEventListener('click',()=>{
         return ;
     }
     let choose = prompt("Choose your Bank code: SBI/Canara/PNB/Bandhan ");
+    if(choose!="SBI"||choose!="Canara"||choose!="PNB"||choose!="Bandhan"){
+        window.alert("Wrong Bank Code Given!!!");
+        return ;
+    }
     let AC = prompt("Enter your A/C no: ");
     if(AC.length!=11){
         window.alert("Wrong A/C number given!!😔");
