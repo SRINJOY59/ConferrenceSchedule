@@ -164,7 +164,7 @@ h5{
     color: rgb(203, 185, 185);
     text-align: center;
     width: 300px;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .vp{
@@ -172,9 +172,23 @@ h5{
 }
 
 .vp button{
-    margin: 20px;
+    margin: 10px;
 }
-
+@media screen and (max-width: 480px){
+    h5{
+        font-family: "poppins",sans-serif;
+        color: rgb(203, 185, 185);
+        text-align: center;
+        width: 300px;
+        font-size: 0.8rem;
+    }
+    .hp{
+        margin: 0;
+        color: azure;
+ height: 20px;
+ width: fit-content;
+    }
+}
 .hp{
  color: azure;
  height: 50px;

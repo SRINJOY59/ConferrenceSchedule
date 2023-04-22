@@ -13,7 +13,7 @@ function generateOTP() {
 }
 const provideOTP = ()=>{
     let OTP = generateOTP();
-    window.alert("One Time Password for the following transaction: ",OTP);
+    window.alert("One Time Password for the following transaction will be shown on next window");
     window.alert(OTP);
     let typedOTP = prompt("Enter the OTP sent to you for further transaction: ");
     if(typedOTP==OTP){
@@ -31,7 +31,7 @@ ticket.addEventListener('click',()=>{
         return ;
     }
     let choose = prompt("Choose your Bank code: SBI/Canara/PNB/Bandhan ");
-    if(choose!="SBI"||choose!="Canara"||choose!="PNB"||choose!="Bandhan"){
+    if(choose!="SBI" && choose!="Canara" && choose!="PNB" && choose!="Bandhan"){
         window.alert("Wrong Bank Code Given!!!");
         return ;
     }
