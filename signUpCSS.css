@@ -4,7 +4,8 @@ body{
 	height: 100%;
 	color:#6a6f8c;
 	font:600 16px/18px 'Open Sans',sans-serif;
-	background: linear-gradient(to top left,aqua,rgb(121, 121, 229));
+	/* background: linear-gradient(to top left,aqua,rgb(121, 121, 229)); */
+	background: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(21, 64, 163) 74.2%); 
 }
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}

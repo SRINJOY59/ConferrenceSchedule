@@ -22,9 +22,9 @@ body{
     padding: 10px;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to top right,rgb(14, 183, 225),rgb(120, 12, 166));
+    background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
 }
-@media screen and (min-width:360px) and (max-height: 1280px) and (max-width: 850px) and (min-height: 600px){
+@media screen and (min-width:360px) and (max-height: 1080px)  and (min-height: 600px){
     body{
         display: flex;
         flex-direction: column;
@@ -49,13 +49,14 @@ body{
 img{
     height:250px ;
     width: 300px;
-    border-radius: 5px;
+    border-radius: 25px;
     transition: .5s;
 }
 
 .intro{
     height: 180px;
     width: 300px;
+    border-radius: 20px;
     position: absolute;
     background: linear-gradient(to top right, rgb(233, 11, 11),rgb(11, 11, 224));
     color: aliceblue;
