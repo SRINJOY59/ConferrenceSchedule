@@ -24,8 +24,12 @@ body{
     align-items: center;
     background:linear-gradient(to top right,rgb(14, 183, 225),rgb(120, 12, 166));
 }
-@media screen and (min-width:360px) {
+@media screen and (min-width:360px) and (max-height: 1280px) and (max-width: 850px) and (min-height: 600px){
     body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
         display: flex;
         flex-direction: column;
     }
