@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    font-family: sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1248378027/vector/vector-seamless-pattern-with-education-back-to-school-icons-doodle-student-dark-background.jpg?s=612x612&w=0&k=20&c=faIgQ0wy5ssG7W-B6GyeFkNEASh9NSraNhNlpe_gbe8=");
+  }
+  .form-container {
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #0cf0f8;
+    font-family: "poppins";
+  }
+  input, textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  button {
+    width: 82.5%;
+    height: 50px;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(17, 204, 48);
+    line-height: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: color .4s ease-out, background .4s ease-out;
+  }
+  button:hover {
+    color: rgb(49, 136, 8);
+    background: #fff;
+    font-weight: bolder;
+  }
+  .errors {
+    display: block;
+    color: rgb(243, 240, 240);
+    margin-top: 5px;
+  }
+  .error {
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    box-shadow: 0 0 0px 0 rgb(247, 241, 240);
+  }
+  h1{
+    color: rgb(195, 235, 252);
+    text-shadow: 4px 4px #ec629c ;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: poppins;
+  }
+  .form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .form__field{
+    font-family: poppins;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding : 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+    .form__field::placeholder {
+      color: transparent;
+    }
+  
+    .form__field::placeholder-shown ~ .form__label {
+      font-size: 1.3rem;
+      cursor: text;
+      top: 20px;
+    }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1.3rem;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+  }
+  
+  /* .form__field:focus {
+     .form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: $primary;
+      font-weight:700;    
+    }
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, $primary,$secondary);
+    border-image-slice: 1;
+  }
+  /* reset input */
+  .form__field:invalid{
+     box-shadow:none; 
+  }
+  /* demo */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+    <div class="form-container">
+    <h1>Contact Form</h1>
+    <form name="contactForm" method="post" onsubmit = "return validate()" action="#">
+      <label for="name" class="form_label"> Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" class="form_field">
+      <span class="errors"></span>
+      <label for="email" class="form_label"> Email</label>
+      <input type="text" placeholder="Email address" id="email" name="email" class="form_field">
+      <span class="errors"></span>
+      <label for="phone" class="form_label"> Phone</label>
+      <input type="text" placeholder="Phone number" id="phone" name="phone" class="form_field">
+      <span class="errors"></span>  
+      <label for="subject"class="form_label"> Message</label>
+      <textarea placeholder="Your message"name="subject" id="subject"class="form_field"></textarea>
+      <span class="errors"></span>
+      <button type="submit" value="Submit">Submit</button>
+    </form>
+  </div>
+  <script src="contactus.js"></script>
+  </body>
+  </html>
