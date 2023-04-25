@@ -6,7 +6,6 @@ var validate = function(e) {
     var check = false;
     var val;
     var errArr = [];
-
     for (var i = 0; i < fields.length; i++) {
         if (fields[i].value === "") {
           
@@ -83,6 +82,7 @@ var validate = function(e) {
         }
       }, 1);
     }
+
     
     return check
 
@@ -111,3 +111,10 @@ var validate = function(e) {
       }
     }
 };
+const show = ()=>{
+  let button = document.getElementById('click');
+  button.addEventListener('click',()=>{
+    window.alert("Done!! your message submitted!!");
+    window.location.assign("index.html");
+  });
+}
